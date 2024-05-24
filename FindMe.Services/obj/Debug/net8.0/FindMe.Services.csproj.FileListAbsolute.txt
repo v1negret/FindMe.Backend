@@ -1,0 +1,17 @@
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\bin\Debug\net8.0\FindMe.Services.deps.json
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\bin\Debug\net8.0\FindMe.Services.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\bin\Debug\net8.0\FindMe.Services.pdb
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\bin\Debug\net8.0\FindMe.Data.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\bin\Debug\net8.0\FindMe.Models.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\bin\Debug\net8.0\FindMe.Data.pdb
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\bin\Debug\net8.0\FindMe.Models.pdb
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.Services.csproj.AssemblyReference.cache
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.Services.AssemblyInfoInputs.cache
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.Services.AssemblyInfo.cs
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.Services.csproj.CoreCompileInputs.cache
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.S.E5C61E7B.Up2Date
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.Services.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\refint\FindMe.Services.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\FindMe.Services.pdb
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Services\obj\Debug\net8.0\ref\FindMe.Services.dll

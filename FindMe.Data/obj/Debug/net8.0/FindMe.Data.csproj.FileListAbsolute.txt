@@ -1,0 +1,15 @@
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\bin\Debug\net8.0\FindMe.Data.deps.json
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\bin\Debug\net8.0\FindMe.Data.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\bin\Debug\net8.0\FindMe.Data.pdb
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.Data.csproj.AssemblyReference.cache
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.Data.AssemblyInfoInputs.cache
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.Data.AssemblyInfo.cs
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.Data.csproj.CoreCompileInputs.cache
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.Data.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\refint\FindMe.Data.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.Data.pdb
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\ref\FindMe.Data.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\bin\Debug\net8.0\FindMe.Models.dll
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\bin\Debug\net8.0\FindMe.Models.pdb
+C:\Users\maksb\RiderProjects\FindMe\FindMe.Data\obj\Debug\net8.0\FindMe.D.F1796BC1.Up2Date

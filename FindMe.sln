@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMe.Data", "FindMe.Data\FindMe.Data.csproj", "{8D46DF97-EC48-488F-96A2-271908F13E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMe.Models", "FindMe.Models\FindMe.Models.csproj", "{6BD5B6CD-82FC-443D-BDA2-F71C8D96C73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMe.Services", "FindMe.Services\FindMe.Services.csproj", "{E17B61A2-FE57-4919-8384-D553117463D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMe.WebApi", "FindMe.WebApi\FindMe.WebApi.csproj", "{9CF99942-1EB6-4539-B83A-845E3F8DB7DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA14FB89-8EC7-4FEF-8488-E41CD3349D15}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D46DF97-EC48-488F-96A2-271908F13E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D46DF97-EC48-488F-96A2-271908F13E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D46DF97-EC48-488F-96A2-271908F13E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D46DF97-EC48-488F-96A2-271908F13E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD5B6CD-82FC-443D-BDA2-F71C8D96C73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD5B6CD-82FC-443D-BDA2-F71C8D96C73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD5B6CD-82FC-443D-BDA2-F71C8D96C73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD5B6CD-82FC-443D-BDA2-F71C8D96C73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17B61A2-FE57-4919-8384-D553117463D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17B61A2-FE57-4919-8384-D553117463D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17B61A2-FE57-4919-8384-D553117463D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17B61A2-FE57-4919-8384-D553117463D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF99942-1EB6-4539-B83A-845E3F8DB7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF99942-1EB6-4539-B83A-845E3F8DB7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF99942-1EB6-4539-B83A-845E3F8DB7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF99942-1EB6-4539-B83A-845E3F8DB7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

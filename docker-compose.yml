@@ -1,0 +1,29 @@
+﻿services:
+  findme.webapi:
+    image: findme.webapi
+    container_name: findme.webapi
+    build:
+      context: .
+      dockerfile: FindMe.WebApi/Dockerfile
+    ports:
+      - 8080:8080
+    depends_on:
+      - findme.database
+      - findme.cache
+  findme.database:
+    image: postgres:latest
+    container_name: findme.database
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=findme
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=rootroot
+    volumes:
+      - ./db:/var/lib/postgresql/data
+  findme.cache:
+    image: redis:latest
+    container_name: findme.cache
+    ports:
+      - 6379:6379
+    restart: always

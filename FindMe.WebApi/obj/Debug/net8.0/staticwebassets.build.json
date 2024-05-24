@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LdUv1gGnpf08Ss2RQrPznjPB+cJH1GGlmFVaK0uz+cA=",
+  "Source": "FindMe.WebApi",
+  "BasePath": "_content/FindMe.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
