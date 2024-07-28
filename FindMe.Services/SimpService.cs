@@ -47,6 +47,11 @@ public class SimpService : ISimpService
         return new SimpServiceResult(true, "Добавление симпатии. Заявка успешно отправлена.");
     }
 
+    public Task<SimpServiceResult> Match()
+    {
+        throw new NotImplementedException();
+    }
+
     public async Task<SimpServiceResult> Delete(DeleteSimpDto request)
     {
         if (request is null)
@@ -106,7 +111,7 @@ public class SimpService : ISimpService
 
     public async Task<List<GetSimpDto>> GetOutgoing(string userId)
     {
-        if (string.IsNullOrEmpty(userId))
+        if(string.IsNullOrEmpty(userId))
             return null;
         
         var requests = await _db.SimpRequests

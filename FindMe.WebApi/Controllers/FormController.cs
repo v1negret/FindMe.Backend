@@ -54,7 +54,7 @@ public class FormController : ControllerBase
     [HttpGet("get/")]
     public async Task<IActionResult> GetForCurrentUser()
     {
-        var user = await _userManager.FindByEmailAsync(HttpContext.User.Identity.Name);
+        var user = await _userManager.GetUserAsync(User);
         var response = await _formService.GetFormForCurrentUser(user.Id);
 
         if (response is null) return BadRequest("Скорее всего, вы ещё не создали анкету 😢.");
@@ -65,7 +65,7 @@ public class FormController : ControllerBase
     [ValidateModel]
     public async Task<IActionResult> Create(CreateFormDto request)
     {
-        var currentUser = await _userManager.FindByEmailAsync(HttpContext.User.Identity.Name);
+        var currentUser = await _userManager.GetUserAsync(User);
         request.UserId = currentUser.Id;
         var response = await _formService.Create(request);
         if (!response.Succeeded) return BadRequest(response.Message);

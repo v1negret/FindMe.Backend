@@ -14,6 +14,5 @@ public class CreateFormDto
     [Required(ErrorMessage = "Поле описания являтся обязательным")]
     [MaxLength(500,ErrorMessage = "Максимальная длинна описания до 500 символов")]
     public string Description { get; set; }
-    [Required]
     public string? UserId { get; set; }
 }

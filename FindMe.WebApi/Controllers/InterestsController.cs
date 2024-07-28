@@ -86,7 +86,7 @@ public class InterestsController : ControllerBase
     [ValidateModel]
     public async Task<IActionResult> AddToCurrentUser([FromBody]AddInterestsToUserDto request)
     {
-        var user = await _userManager.FindByEmailAsync(HttpContext.User.Identity.Name);
+        var user = await _userManager.GetUserAsync(User);
         var form = await _formService.GetFormForCurrentUser(user.Id);
         if (form is null)
             return BadRequest("Попытка добавить интересы к несуществующей анкете.");

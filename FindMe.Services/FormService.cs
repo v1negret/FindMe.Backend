@@ -109,7 +109,8 @@ public class FormService : IFormService
             Id = responseForm.Id,
             Age = responseForm.Age,
             Name = responseForm.Name,
-            Description = responseForm.Description
+            Description = responseForm.Description,
+            UserId = responseForm.UserId
         };
     }
     public async Task<GetFormDto?> GetFormForCurrentUser(string userId)

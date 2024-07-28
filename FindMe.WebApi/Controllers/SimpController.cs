@@ -26,10 +26,9 @@ public class SimpController : ControllerBase
     {
         if (request is null)
             return BadRequest();
-        var currentUser = await _userManager.FindByEmailAsync(HttpContext.User.Identity.Name);
-        if (currentUser.Id != request.FromUserId)
-            return Forbid();
+        var currentUser = await _userManager.GetUserAsync(User);
         
+        request.FromUserId = currentUser.Id;
         
         var result = await _simp.Add(request);
         if (!result.Succeeded)
